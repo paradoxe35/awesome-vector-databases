@@ -1,0 +1,9 @@
+Vector databases (VDBs) are a critical emerging technology focused on processing, storing, and retrieving vast amounts of high-dimensional vector data rapidly and efficiently. Unlike traditional databases, they offer unique advantages for use cases such as image and video recognition, natural language processing (NLP), and Retrieval-Augmented Generation (RAG). They are crucial for enabling Large Language Models (LLMs) to deliver accurate and scalable results.
+
+### Features
+*   **Word Embeddings Storage:** LLMs utilize vector databases to store word embeddings like Word2Vec, GloVe, and FastText, enabling efficient fetching during real-time operations.
+*   **Semantic Similarity:** Vector databases facilitate the quantification of semantic similarity between text pieces by quickly returning nearest vectors (semantically closest words or sentences) for a given query vector.
+*   **Efficient Large-Scale Retrieval:** For tasks like information retrieval or recommendation, vector databases help LLMs rapidly retrieve the most relevant documents from large corpora when documents are represented as vectors.
+*   **Translation Memory:** In machine translation, previous translations can be stored as vectors, allowing the database to be queried for similar sentences to reuse or adapt translations, improving speed and consistency.
+*   **Knowledge Graph Embeddings:** Vector databases store and retrieve knowledge graph embeddings, where entities and relations are transformed into vectors, aiding tasks like link prediction, entity resolution, and relation extraction.
+*   **Anomaly Detection:** They facilitate efficient searching for anomalies in high-dimensional text representations, useful for tasks like text classification or spam detection.
